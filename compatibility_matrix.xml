@@ -15,11 +15,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="native" optional="false">
-        <name>netutils-wrapper</name>
-    <version>1.0</version>
-    </interface>
-    </Hal>
     <hal format="hidl" optional="false">
         <name>android.hidl.allocator</name>
         <version>1.0</version>
@@ -67,5 +62,8 @@
             <name>IKeystoreExt</name>
             <instance>default</instance>
         </interface>
+   <hal format="native" optional="false">
+        <name>netutils-wrapper</name>
+    <version>1.0</version>
     </hal>
 </compatibility-matrix>
